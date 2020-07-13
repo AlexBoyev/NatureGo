@@ -1,0 +1,591 @@
+<resources>
+    <string name="app_name">NatureGo</string>
+    <string name="phone"><b>Phone</b></string>
+    <string name="password"><b>Password</b></string>
+    <string name="login">Login</string>
+    <string name="no_account_yet">No account yet? Create one</string>
+    <string name="lbl_take_camera_picture">Take a picture</string>
+    <string name="lbl_choose_from_gallery">Choose from gallery</string>
+    <string name="lbl_set_profile_photo">Set profile image</string>
+    <string name="toast_image_intent_null">Image picker option is missing!</string>
+
+
+    <string name="go_to_settings">GOTO SETTINGS</string>
+    <string name="dialog_permission_title">Grant Permissions</string>
+    <string name="dialog_permission_message">This app needs permission to use this feature. You can grant them in app settings.</string>
+
+    <string name="email">Email</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="recover">Recover</string>
+    <string name="name">Name</string>
+    <string name="family_name">Family Name</string>
+    <string name="select_gender">Select Gender</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="enter_birthday">Enter Birthday</string>
+    <string name="reenter_password">Re-Enter password</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_member">Already a member? click here to login.</string>
+    <string name="signup">Signup</string>
+    <string name="creating_account">Creating Account…</string>
+    <string name="phone_already_registered">The phone number is already registered.</string>
+    <string name="registration_completed">Registration completed</string>
+    <string name="registration_failed">Registration failed.</string>
+    <string name="please_select_gender">Please select your gender</string>
+    <string name="age_varification">You must be at least 6 years old to register</string>
+    <string name="atleast_2_characters">at least 2 characters</string>
+    <string name="valid_email">enter a valid email address</string>
+    <string name="valid_phone">Enter Valid Mobile Number</string>
+    <string name="valid_password">between 4 and 10 alphanumeric characters</string>
+    <string name="recovering_passowrd">Recovering Account…</string>
+    <string name="valid_repassword">Password Do not match</string>
+    <string name="back_to_menu">Back To Menu</string>
+    <string name="stop_hike">Stop Hike</string>
+    <string name="enter_hike_name">Enter hike name"</string>
+    <string name="save">Save</string>
+    <string name="dont_save">Dont Save</string>
+
+    <string name="start_hike">Start Hike</string>
+    <string name="track_history">Track History</string>
+    <string name="my_collection">My Collection</string>
+    <string name="information">Information</string>
+    <string name="logout">Logout</string>
+    <string name="search">Search</string>
+    <string name="school_name">School name</string>
+    <string name="class_name">Class</string>
+    <string name="city_name">City</string>
+    <string name="confirm">confirm</string>
+    <string name="enter_dates">Enter dates</string>
+    <string name="start_date">Start date</string>
+    <string name="end_date">End date</string>
+    <string name="get_all">Get all</string>
+    <string name="get_by_dates">By dates</string>
+    <string name="dates_summery">Dates summery</string>
+    <string name="back">Back</string>
+    <string name="reset">Reset</string>
+    <string name="welcome">Welcome</string>
+    <string name="information_info">
+"The app is designed for 4th - 6th graders as part of a program
+Ministry of Education studies in science / acting classes available
+Nature and gardens.
+
+Going into space, we will search for a variety of animals in a stratified reality
+Through the smartphone, animal photography and information) Living environment, saturation, food
+Etc ... (and game hints)
+
+Document the route and continue discussion and road
+The purpose of the game is to save the animals)
+Honey Badger etc .... (from extinction)
+
+Oren Noam
+oratzio@gmail.com
+
+Micha Leon
+michalion81@hotmail.com
+
+"for additional information visit us at our
+        <a href="https://oratzio.wixsite.com/naturego">website</a>
+    </string>
+
+
+    <string name="mapboxtoken">
+        pk.eyJ1IjoibmF0dXJlZ28iLCJhIjoiY2p6ankwYXBjMGRyNjNtcW02cTlzN2g4MCJ9.ws8Grmb0aT6i-5f2lvMzsA
+    </string>
+
+
+    <string name="camera">Camera</string>
+    <string name="my_location">My Location</string>
+    <string name="connection_failed">Failed to connect to the server.</string>
+    <string name="exit">Exit</string>
+    <string name="cancel">Cancel</string>
+    <string name="authentication">"Authenticating…"</string>
+    <string name="foreground_service">NatureGo GPS</string>
+    <string name="close_naturego">Are you sure you want to close NatureGo ?</string>
+    <string name="invalid_details">Invalid phone or password.</string>
+    <string name="enter_valid_phone">enter a valid phone number</string>
+    <string name="password_length">between 4 and 10 alphanumeric characters</string>
+    <string name="name_already_exists">The name is already exist</string>
+    <string name="permission_external_storage">Permission denied to read your External storage</string>
+    <string name="foreground_service_example">Hike in progress</string>
+    <string name="enable_location">Enable Location"</string>
+    <string name="location_settings_not_enabled">Your locations setting is not enabled. Please enabled it in settings menu.</string>
+    <string name="location_settings">Location Settings</string>
+    <string name="resume_hike">Resume Hike</string>
+    <string name="logout_varification">Are you sure you want to logout ?</string>
+    <string name="hike_in_progress">Hike in progress, To save enter hike name</string>
+    <string name="permission_to_use_application">You must accept permissions to use this application.</string>
+    <string name="allow">Allow</string>
+    <string name="password_sent_to_email">The password is sent to your email.</string>
+    <string name="fetching_data">"Fetching data…"</string>
+    <string name="please_select_date">Please select date</string>
+    <string name="failed_to_fetch_data">Failed to fetch data."</string>
+    <string name="total_hikes">Total Hikes: </string>
+    <string name="total_photos">"Total Photo Count: </string>
+    <string name="total_distance">Total Distance: </string>
+    <string name="meters"> Meters</string>
+    <string name="total_time_on_track">Total time spent on track: </string>
+    <string name="naturego_statistics">NatureGo\'s Statistics</string>
+    <string name="date_summery">Dates Summery</string>
+    <string name="hike_details">Hike Details</string>
+
+
+    <string name="demote">Demote</string>
+    <string name="promote">Promote</string>
+    <string name="delete">Delete</string>
+    <string name="varify_promote">Are you sure you want to promote this user?</string>
+    <string name="varify_demote">Are you sure you want to demote this user?</string>
+    <string name="varify_delete">Are you sure you want to delete this user?</string>
+
+    <string name="user_information">"User Information"</string>
+    <string name="teacher">Teacher</string>
+    <string name="user">User</string>
+    <string name="hike_saved">Hike saved.</string>
+    <string name="failed_to_save_hike">Failed to save hike.</string>
+    <string name="start_service">Start Service</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="hike_name">Hike name</string>
+
+    <string name="main_menu">Menu menu</string>
+    <string name="admin_panel">Admin panel</string>
+    <string name="statistics">Statistics</string>
+    <string name="trivia">Trivia</string>
+    <string name="settings">Settings</string>
+
+    <string name="user_location_permission_explanation">
+        sasatttttt
+    </string>
+    <string name="new_location">
+        2,2
+    </string>
+
+    <string name="correct_answer">Correct answer!</string>
+    <string name="wrong_answer">Wrong answer!</string>
+
+    <string name="tag">Description</string>
+    <string name="language_already_set">The system already in the chosen language</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="your_name">Full Name</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="forgot_password_click_here">Forgot password? Click here</string>
+    <string name="no_account_yet_create_one">No account yet? Create one</string>
+
+    <string name="change_language">Change Language</string>
+    <string name="title_activity_new_main_menu">NewMainMenu</string>
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Trivia                          -->
+    <string name="gecko_question_1">The gecko is a kind of:</string>
+    <string name="gecko_question_1_wrong_0">Lizard</string>
+    <string name="gecko_question_1_wrong_1">Newt</string>
+    <string name="gecko_question_1_wrong_2">Dragon</string>
+    <string name="gecko_question_1_wrong_3">Toad</string>
+
+    <string name="gecko_question_2">Which of the following improbabilities are shown by a gecko?</string>
+    <string name="gecko_question_2_wrong_0">The female gecko can reproduce without copulating with a male.</string>
+    <string name="gecko_question_2_wrong_1">The gecko resurrects after being dead for a few hours.</string>
+    <string name="gecko_question_2_wrong_2">When the gecko dies, they transform into several tiny bacteria and keep living.</string>
+    <string name="gecko_question_2_wrong_3">A single gecko can devour a whole buffalo.</string>
+
+    <string name="gecko_question_3">What part of the gecko can be regrown if it is cut from the body?</string>
+    <string name="gecko_question_3_wrong_0">Tail</string>
+    <string name="gecko_question_3_wrong_1">Hindlimb</string>
+    <string name="gecko_question_3_wrong_2">Forelimb</string>
+    <string name="gecko_question_3_wrong_3">Head</string>
+
+    <string name="gecko_question_4">What is the skin color of the ordinary house gecko?</string>
+    <string name="gecko_question_4_wrong_0">Brown</string>
+    <string name="gecko_question_4_wrong_1">White</string>
+    <string name="gecko_question_4_wrong_2">Black</string>
+    <string name="gecko_question_4_wrong_3">Red</string>
+
+    <string name="gecko_question_5">What do geckos feed on?</string>
+    <string name="gecko_question_5_wrong_0">Insects</string>
+    <string name="gecko_question_5_wrong_1">Bird droppings</string>
+    <string name="gecko_question_5_wrong_2">Fruits</string>
+    <string name="gecko_question_5_wrong_3">Food grains</string>
+
+
+    <string name="hoopoe_question_1">The hoopoe was chosen as the national bird of the State of ___.</string>
+    <string name="hoopoe_question_1_wrong_0">Israel</string>
+    <string name="hoopoe_question_1_wrong_1">Russia</string>
+    <string name="hoopoe_question_1_wrong_2">Germany</string>
+    <string name="hoopoe_question_1_wrong_3">Spain</string>
+
+    <string name="hoopoe_question_2">What are the main color of the Hoopoe ?</string>
+    <string name="hoopoe_question_2_wrong_0">Brown-Yellow</string>
+    <string name="hoopoe_question_2_wrong_1">Red</string>
+    <string name="hoopoe_question_2_wrong_2">Black</string>
+    <string name="hoopoe_question_2_wrong_3">Green</string>
+
+    <string name="hoopoe_question_3">How many eggs does the Hoopoe may lay?</string>
+    <string name="hoopoe_question_3_wrong_0">5\-6</string>
+    <string name="hoopoe_question_3_wrong_1">1\-2</string>
+    <string name="hoopoe_question_3_wrong_2">2\-3</string>
+    <string name="hoopoe_question_3_wrong_3">4\-5</string>
+
+    <string name="hoopoe_question_4">Where does the hoopoe builds its nest?</string>
+    <string name="hoopoe_question_4_wrong_0">low places and holes in the trees</string>
+    <string name="hoopoe_question_4_wrong_1">on the water</string>
+    <string name="hoopoe_question_4_wrong_2">in the sand</string>
+    <string name="hoopoe_question_4_wrong_3">On the ground</string>
+
+    <string name="hoopoe_question_5">The hoopoe\’s flight resembles that of a ____.</string>
+    <string name="hoopoe_question_5_wrong_0">Butterfly</string>
+    <string name="hoopoe_question_5_wrong_1">Pidgeon</string>
+    <string name="hoopoe_question_5_wrong_2">Firefly</string>
+    <string name="hoopoe_question_5_wrong_3">Fly</string>
+
+
+    <string name="frog_question_1">How are frogs born?</string>
+    <string name="frog_question_1_wrong_0">Frogs are born in wet, soft eggs laid in the water</string>
+    <string name="frog_question_1_wrong_1">Frogs are born live, like humans</string>
+    <string name="frog_question_1_wrong_2">Frogs are born in hard eggs, like birds</string>
+    <string name="frog_question_1_wrong_3">Frogs are born by an adult frog splitting in half to make two adult frogs</string>
+
+    <string name="frog_question_2">What do frog eggs hatch into?</string>
+    <string name="frog_question_2_wrong_0">Tadpoles</string>
+    <string name="frog_question_2_wrong_1">Adult frogs</string>
+    <string name="frog_question_2_wrong_2">Small fish</string>
+    <string name="frog_question_2_wrong_3">Snakes</string>
+
+    <string name="frog_question_3">Which best describes a tadpole?</string>
+    <string name="frog_question_3_wrong_0">A tadpole has a flat tail for swimming and gills for breathing underwater.</string>
+    <string name="frog_question_3_wrong_1">A tadpole has strong legs for jumping</string>
+    <string name="frog_question_3_wrong_2">A tadpole has lungs for breathing on land.</string>
+    <string name="frog_question_3_wrong_3">A tadpole has scales and fins, like a fish</string>
+
+    <string name="frog_question_4">What keeps tree frogs from falling?</string>
+    <string name="frog_question_4_wrong_0"> suction cups on their feet</string>
+    <string name="frog_question_4_wrong_1">foot spikes</string>
+    <string name="frog_question_4_wrong_2">bungee cords</string>
+    <string name="frog_question_4_wrong_3">foot glue</string>
+
+    <string name="frog_question_5">What do adult frogs and toads lack?</string>
+    <string name="frog_question_5_wrong_0">Tail</string>
+    <string name="frog_question_5_wrong_1">Tongue</string>
+    <string name="frog_question_5_wrong_2">Legs</string>
+    <string name="frog_question_5_wrong_3">Eyes</string>
+
+
+    <string name="ciconia_question_1">Where are storks NOT found on Earth?</string>
+    <string name="ciconia_question_1_wrong_0">Antarctica</string>
+    <string name="ciconia_question_1_wrong_1">North America</string>
+    <string name="ciconia_question_1_wrong_2">Africa</string>
+    <string name="ciconia_question_1_wrong_3">Europe</string>
+
+    <string name="ciconia_question_2">Which of the following would a stork most likely eat for lunch?</string>
+    <string name="ciconia_question_2_wrong_0">Fish</string>
+    <string name="ciconia_question_2_wrong_1">Leaves</string>
+    <string name="ciconia_question_2_wrong_2">Grass</string>
+    <string name="ciconia_question_2_wrong_3">Birds</string>
+
+    <string name="ciconia_question_3">Storks are known for their long, tall _____ and strong _____.</string>
+    <string name="ciconia_question_3_wrong_0">legs, bills</string>
+    <string name="ciconia_question_3_wrong_1">tails, webbed feet</string>
+    <string name="ciconia_question_3_wrong_2">Feathers, teeth</string>
+    <string name="ciconia_question_3_wrong_3">talon, eyes</string>
+
+    <string name="ciconia_question_4">Ciconia can live to be:</string>
+    <string name="ciconia_question_4_wrong_0">10\-12 years</string>
+    <string name="ciconia_question_4_wrong_1">15\-20 years</string>
+    <string name="ciconia_question_4_wrong_2">25 years</string>
+    <string name="ciconia_question_4_wrong_3">3\-5 years</string>
+
+    <string name="ciconia_question_5">What distance Ciconia  travel in one day during their wanderings?</string>
+    <string name="ciconia_question_5_wrong_0">300km</string>
+    <string name="ciconia_question_5_wrong_1">100km</string>
+    <string name="ciconia_question_5_wrong_2">200km</string>
+    <string name="ciconia_question_5_wrong_3">500km</string>
+
+
+    <string name="otter_question_1">At what age does the otter learn to swim?</string>
+    <string name="otter_question_1_wrong_0">2 month</string>
+    <string name="otter_question_1_wrong_1">2 weeks</string>
+    <string name="otter_question_1_wrong_2">1 month</string>
+    <string name="otter_question_1_wrong_3">They born swimmers</string>
+
+    <string name="otter_question_2">What is the main food of the otter?</string>
+    <string name="otter_question_2_wrong_0">Fish</string>
+    <string name="otter_question_2_wrong_1">Snails</string>
+    <string name="otter_question_2_wrong_2">Frogs</string>
+    <string name="otter_question_2_wrong_3">Grass</string>
+
+    <string name="otter_question_3">How many hours a day does the otter hunts?</string>
+    <string name="otter_question_3_wrong_0">3\-5 hours</string>
+    <string name="otter_question_3_wrong_1">10\-12 hours</string>
+    <string name="otter_question_3_wrong_2">7\-8 hours</string>
+    <string name="otter_question_3_wrong_3">2 hours</string>
+
+    <string name="otter_question_4">At what age does the young otter first emerge from its lair?</string>
+    <string name="otter_question_4_wrong_0">1 month</string>
+    <string name="otter_question_4_wrong_1">2 weeks</string>
+    <string name="otter_question_4_wrong_2">3 weeks</string>
+    <string name="otter_question_4_wrong_3">2 month</string>
+
+    <string name="otter_question_5">To what age does the otter stay with her parents</string>
+    <string name="otter_question_5_wrong_0">1 year</string>
+    <string name="otter_question_5_wrong_1">3 month</string>
+    <string name="otter_question_5_wrong_2">2 month</string>
+    <string name="otter_question_5_wrong_3">6 month</string>
+
+
+    <string name="mongoose_question_1">What would be a good description of a mongoose?</string>
+    <string name="mongoose_question_1_wrong_0">long slender faces and bodies, short ears and legs, long tails</string>
+    <string name="mongoose_question_1_wrong_1">medium sized animals with no fur and no tails</string>
+    <string name="mongoose_question_1_wrong_2">very small short round bodies, pointed ears, rat like tails</string>
+    <string name="mongoose_question_1_wrong_3">big stocky bodies, large ears, no tails</string>
+
+    <string name="mongoose_question_2">Mongooses can be found primarily in what two regions of the world?</string>
+    <string name="mongoose_question_2_wrong_0">Africa and southern Asia</string>
+    <string name="mongoose_question_2_wrong_1">Europe and Siberia</string>
+    <string name="mongoose_question_2_wrong_2">Australia and Oceania, </string>
+    <string name="mongoose_question_2_wrong_3">North America and Central America </string>
+
+    <string name="mongoose_question_3">About how many species of mongoose are there? </string>
+    <string name="mongoose_question_3_wrong_0">30</string>
+    <string name="mongoose_question_3_wrong_1">20</string>
+    <string name="mongoose_question_3_wrong_2">50</string>
+    <string name="mongoose_question_3_wrong_3">100</string>
+
+    <string name="mongoose_question_4">A mongoose is *least* likely to prey on which of these animals?</string>
+    <string name="mongoose_question_4_wrong_0">Rabbit</string>
+    <string name="mongoose_question_4_wrong_1">Lizard</string>
+    <string name="mongoose_question_4_wrong_2">Frog</string>
+    <string name="mongoose_question_4_wrong_3">Snake</string>
+
+    <string name="mongoose_question_5">Mongooses are brave hunters that are famous for fighting and eating _____.</string>
+    <string name="mongoose_question_5_wrong_0">Snakes</string>
+    <string name="mongoose_question_5_wrong_1">Bobcats</string>
+    <string name="mongoose_question_5_wrong_2">Fish</string>
+    <string name="mongoose_question_5_wrong_3">Foxes</string>
+
+
+    <string name="stellagama_question_1">How long the body of the stellagama can reach?</string>
+    <string name="stellagama_question_1_wrong_0">30 cm</string>
+    <string name="stellagama_question_1_wrong_1">5 cm</string>
+    <string name="stellagama_question_1_wrong_2">10 cm</string>
+    <string name="stellagama_question_1_wrong_3">15 cm</string>
+
+    <string name="stellagama_question_2">In what part of the stellagama’s body is the scales large and especially thorny</string>
+    <string name="stellagama_question_2_wrong_0">Tail</string>
+    <string name="stellagama_question_2_wrong_1">Head</string>
+    <string name="stellagama_question_2_wrong_2">Back</string>
+    <string name="stellagama_question_2_wrong_3">Legs</string>
+
+    <string name="stellagama_question_3">What is the main diet of the stellagama?</string>
+    <string name="stellagama_question_3_wrong_0">Insects</string>
+    <string name="stellagama_question_3_wrong_1">Grass</string>
+    <string name="stellagama_question_3_wrong_2">Bats</string>
+    <string name="stellagama_question_3_wrong_3">Small mammals</string>
+
+    <string name="stellagama_question_4">The stellagama is beneficial to man by ___ pests</string>
+    <string name="stellagama_question_4_wrong_0">Hunting</string>
+    <string name="stellagama_question_4_wrong_1">Connecting with</string>
+    <string name="stellagama_question_4_wrong_2">Escape from</string>
+    <string name="stellagama_question_4_wrong_3">Cooperate with</string>
+
+    <string name="stellagama_question_5">The Stellagama is sort of a:</string>
+    <string name="stellagama_question_5_wrong_0">Lizard</string>
+    <string name="stellagama_question_5_wrong_1">Mammal</string>
+    <string name="stellagama_question_5_wrong_2">Insect</string>
+    <string name="stellagama_question_5_wrong_3">Fish</string>
+
+
+    <string name="fruitBat_question_1">What are fruit bats?</string>
+    <string name="fruitBat_question_1_wrong_0">Large bats that eat fruit</string>
+    <string name="fruitBat_question_1_wrong_1">Small bats that eat other animals</string>
+    <string name="fruitBat_question_1_wrong_2">Small bats that only eat leaves</string>
+    <string name="fruitBat_question_1_wrong_3">Large bats that eat other animals</string>
+
+    <string name="fruitBat_question_2">Why are fruit bats sometimes called flying foxes?</string>
+    <string name="fruitBat_question_2_wrong_0">Because they have furry faces that look like foxes</string>
+    <string name="fruitBat_question_2_wrong_1">Because they are related to foxes</string>
+    <string name="fruitBat_question_2_wrong_2">Because they live in caves with foxes</string>
+    <string name="fruitBat_question_2_wrong_3">Because they eat meat like foxes</string>
+
+    <string name="fruitBat_question_3">Why are fruit bats mammals?</string>
+    <string name="fruitBat_question_3_wrong_0">Because they feed their babies mother\'s milk and have hair on their bodies</string>
+    <string name="fruitBat_question_3_wrong_1">Because they eat fruit, </string>
+    <string name="fruitBat_question_3_wrong_2">Because they are most active at night</string>
+    <string name="fruitBat_question_3_wrong_3">Because they only feed their babies fruit</string>
+
+    <string name="fruitBat_question_4">Where and when would you not see bats?</string>
+    <string name="fruitBat_question_4_wrong_0">By the sea during the day</string>
+    <string name="fruitBat_question_4_wrong_1">Near a large bridge at night</string>
+    <string name="fruitBat_question_4_wrong_2">Near a cave in the evening</string>
+    <string name="fruitBat_question_4_wrong_3">Near fruit trees at night </string>
+
+    <string name="fruitBat_question_5">Bats can live to be:</string>
+    <string name="fruitBat_question_5_wrong_0">10\-20 years</string>
+    <string name="fruitBat_question_5_wrong_1">3\-5 years</string>
+    <string name="fruitBat_question_5_wrong_2">5\-10 years</string>
+    <string name="fruitBat_question_5_wrong_3">40\-50 years</string>
+
+    <string name="honeyBadger_question_1">Which of the following countries is NOT a natural habitat for the honey badger?</string>
+    <string name="honeyBadger_question_1_wrong_0">Brazil</string>
+    <string name="honeyBadger_question_1_wrong_1">India</string>
+    <string name="honeyBadger_question_1_wrong_2">Israel</string>
+    <string name="honeyBadger_question_1_wrong_3">South Africa</string>
+
+    <string name="honeyBadger_question_2">What does the honey badger feed on, other than honey?</string>
+    <string name="honeyBadger_question_2_wrong_0">Scorpions</string>
+    <string name="honeyBadger_question_2_wrong_1">Snakes</string>
+    <string name="honeyBadger_question_2_wrong_2">Spiders</string>
+    <string name="honeyBadger_question_2_wrong_3">Porcupines</string>
+
+    <string name="honeyBadger_question_3">Up to how long may a honey badger\'s foreclaws grow?</string>
+    <string name="honeyBadger_question_3_wrong_0">40mm</string>
+    <string name="honeyBadger_question_3_wrong_1">10mm</string>
+    <string name="honeyBadger_question_3_wrong_2">20mm</string>
+    <string name="honeyBadger_question_3_wrong_3">30mm</string>
+
+    <string name="honeyBadger_question_4">What is the usual size of a honey badger litter?</string>
+    <string name="honeyBadger_question_4_wrong_0">1 cub</string>
+    <string name="honeyBadger_question_4_wrong_1">2\-3 cubs</string>
+    <string name="honeyBadger_question_4_wrong_2">3\-4 cubs</string>
+    <string name="honeyBadger_question_4_wrong_3">4\-5 cubs</string>
+
+    <string name="honeyBadger_question_5">Some honey badgers take over other animals homes. Which of the following burrows are they known to use?</string>
+    <string name="honeyBadger_question_5_wrong_0">Mongoose</string>
+    <string name="honeyBadger_question_5_wrong_1">Lizard</string>
+    <string name="honeyBadger_question_5_wrong_2">Rabbit</string>
+    <string name="honeyBadger_question_5_wrong_3">Aardvark</string>
+
+
+    <!-- animals information -->
+    <string name="gecko_information">Geckos are small to medium-sized lizards. They are found all over the world in warm climates.
+There are over 1,100 different species of geckos. Several species, such as the House Gecko, will enter houses and climb over the walls and ceilings eating insects. Many people also keep geckos as pets in aquariums. The most common pet gecko is the Leopard Gecko.
+Geckos range in size from 3/4 to 14 inches long.
+The life span of a gecko can be as long as 30 years.
+Most geckos are nocturnal.
+The largest gecko is the Tokay Gecko and the smallest is the Dwarf Gecko.
+Geckos come in a wide variety of colors, patterns and textures. Some geckos can change color like chameleons.
+Geckos are different from other lizards, because they use vocal chirps to communicate with each other.
+Although some geckos have claws, most have thousands of hair-like structures on their feet which allows them to stick to and climb slippery and flat surfaces. Most species of gecko have a clear membrane to protect the eyes instead of eyelids. They also lick this membrane to keep it clean.
+If a gecko accidentally loses its tail it has the ability to grow a new one.
+</string>
+
+    <string name="hoopoe_information">Hoopoe is a medium-sized bird that can reach length between 9.8 to 12.6 inches and weight between 1.6 and 3.1 ounces. It has a wingspan of 17.3 to 19 inches.
+Hoopoe is named after onomatopoeic sound produced by the bird: oop-oop-oop.
+he is easily recognized because of its colorful feathers. Bird is cinnamon to chestnut in color, with white and black stripes on the wings and tail. It has prominent, upright crest on its head.
+Hoopoe has long and strong black beak. It is curved and adapted for the feeding on the ground,
+eats different type of insects, small reptiles, snails, frogs, seeds, berries and other types of plant materials.
+Hoopoe has very muscular bill which can be opened while stuck in the ground when the bird is looking for food.
+Hoopoe enjoys bathing on the sun and in the dust. During sunbathing, takes specific position: it tilts its head back and spread its wings and tail above the ground.
+Subspecies of hoopoe that live in temperate climate belong to group of migratory species. They have large and muscular wings, which are required for the prolonged flights.
+Hoopoe is characterized by undulating flight. Movement of its wings resembles the movement of the wings of a butterfly.
+Hoopoe is a territorial animal. Territory is usually populated with a single mating couple. Male will readily fight with intruders to defend its territory.
+</string>
+
+    <string name="frog_information">Frog is the common name for amphibians in the order Anura.
+Adult frogs are characterised by long hind legs, a short body, webbed digits, protruding eyes and the absence of a tail.
+Most frogs have a semi-aquatic lifestyle, but move easily on land by jumping or climbing.
+They typically lay their eggs in puddles, ponds or lakes, and their larvae, called tadpoles, have gills and develop in water.
+Adult frogs follow a carnivorous diet, mostly of arthropods, annelids and gastropods.
+Frogs are most noticeable through their call, which can be widely heard during the mating season.
+The distribution of frogs ranges from tropic to subarctic regions, with most of the species found in tropical rainforests.
+With over 5,000 species described, they are among the most diverse groups of vertebrates.
+However the declining numbers of certain species of frogs are increasingly giving cause for concern.
+</string>
+
+    <string name="ciconia_information">The white stork has a strong body which measures 100 – 115 centimetres (39 – 45 inches) from beak tip to tail end and weighs 2.5 – 4.4 kilograms.
+        It has a wingspan of 195 – 215 centimetres (77 – 85 inches).
+The white stork is a distinctive large wading bird which has a white plumage with black flight feathers and wing coverts.
+        The black colouration is caused by the pigment melanin and carotenoids in their diet.
+Adult white storks have long pointed red beaks, long red legs with partially webbed feet on the end and a long, slender neck.
+        They have black skin around their eyes and their claws are blunt and nail-like. Males and females are identical in appearance,
+        however, males are slightly larger in size. The feathers on the chest are long and form a ruff which is sometimes used when performing courtship displays.
+    </string>
+
+    <string name="otter_information">The charismatic otter, a member of the weasel family, is found on every continent except Australia and Antarctica.
+        Most are small, with short ears and noses, elongated bodies, long tails, and soft, dense fur. Webbed feet and powerful tails,
+        which act like rudders, make otters strong swimmers. Their nostrils and ears close to keep water out,
+        and waterproof fur keeps them warm All otters are expert hunters that eat fish, crustaceans, and other critters.
+        Sea otters have an ingenious method to open shellfish. A sea otter will float on its back, place a rock on its chest,
+        then smash the mollusk down on it until it breaks open. When it’s time to nap, sea otters entangle themselves in kelp so they don’t float away.
+        They also sometimes intertwine their feet with another sea otter, so that they stay together.
+    </string>
+
+    <string name="mongoose_information">Mongooses are long, furry creatures with a pointed face and a bushy tail. Despite popular belief, mongooses are not rodents.
+        They are members of the Herpestidae family, which also includes civets and meerkats. There are 34 species of mongoose in 20 genera, according to the University of Michigan\s Animal Diversity Web (ADW).
+        With so many different types of mongoose, sizes vary greatly. Their bodies range from the dwarf mongoose at 7 inches (18 centimeters) long to the Egyptian mongoose,
+        which is 2 feet (60 cm) long, Most species of mongoose are found in Africa, but some also live in southern Asia and the Iberian Peninsula, Banded mongoose colonies live, travel and fight together as a team.
+        They stay in one area for around a week, then move in a wave to another location, much like a flock of birds when they migrate
+    </string>
+
+    <string name="stellagama_information">The stellagama is a member of the Herdon family in the series of lizards. It is common in Asia, Africa and Australia.
+        This is the most common mustard of all the stellagama in the country.
+The stellagama\'s head is wide and covered with small scales. The body is bulky and strong. The tail is tight and barely detached from the rest of the body.
+        When the tail was cut off, a new tail grew in its place. The tongue is thick, fluffy, sticky and relatively short.
+His bite hurts because his fangs are strong. There are two longitudinal lines of warty scales that appear to be a zipper and its identification mark.
+        Its color ranges from gray-black to yellow-gray.
+The color change of the stellagama found has a role in absorbing heat. In the morning, the mustard is dark and in the evening it becomes clearer and less heat is absorbed into the body.
+The stellio is found in holes and burrows in the soil, rock crevices and walls.
+The area of his life is protected by high vantage points, on which he stands and surveys the area. He has several estates,
+        each of which can be found from one female to four females and several offspring.
+It can be seen in the daytime running around walls, walls, rocks and trees.
+
+During the cold days of winter, the activity of the mustard decreases, and is in a kind of hibernatioThe stellio is heated by exposure to the sun\'s rays.n.
+The Haredim are territorial and live in families called testimony. The adult mustard does not change the color of its body to stand out in the field, and so inform all the individuals in the surrounding area.
+He takes possession of himself and threatens other males by various means: terrible cows, tail flaps, bumps and bites
+    </string>
+
+    <string name="fruitBat_information">The fruit bat, also known as the “flying fox,” is one of the largest bats in the world, receiving its name from its fox-like face and large eyes.
+        Unlike most bats, this flying mammal uses its sight rather than echolocation to locate food. Hearing the loud squeals of other bats feeding also helps it
+        locate a food source. Flying foxes have two claws on the leading edge of their wings and pointed teeth. If we look at the jaws of the fruit bat,
+        it has very sharp teeth. Most people have been taught that this is a design for a carnivorous animal. However, this unique creature is 100 percent
+        vegetarian. Their entire diet consists of blossoms and fruit. When feeding on fruit, they drink the juice and spit out the pulp.
+        Flying foxes have trouble getting into the air if caught on the ground, so they feed on fruit in the trees and will not follow a meal if it drops to the ground.
+        They get their water by skimming over rivers and lakes and thus avoid having to land.
+    </string>
+
+    <string name="honeyBadger_information">Honey badgers, also known as ratels, are related to skunks, otters, ferrets, and other badgers.
+        These voracious omnivores get their name from their fondness for feeding on honey and honeybee larvae.
+        They also eat insects, amphibians, reptiles, birds, and mammals, as well as roots, bulbs, berries, and fruits.
+        Though they hunt for their own food most of the time, they’ll happily steal from other carnivores or scavenge the kills of bigger animals when the opportunity arises.
+        Their prominent, sharp teeth, long foreclaws, and stocky build allow them to easily rip meat from bone.
+        Honey badgers can be found throughout most of sub-Saharan Africa, Saudi Arabia, Iran, and western Asia.
+        They can adapt to a variety of conditions, from warm rain forests to cool mountains
+Good at turning rock crevices and hollowed trees into shelters, honey badgers will also make homes in the abandoned dens of other animals like yellow mongooses.
+</string>
+    <string name="strings">Fetching data..</string>
+
+    <string name="cat_information">Felis catus has had a very long relationship with humans. Ancient Egyptians may have first domesticated cats as early as 4,000 years ago. Plentiful rodents probably drew wild felines to human communities. The cats skill in killing
+Like their wild relatives, domestic cats are natural hunters able to stalk prey and pounce with sharp claws and teeth.
+        They are particularly effective at night, when their light-reflecting eyes allow them to see better than much of their prey. Cats also enjoy acute hearing. All cats are nimble and agile,
+        and their long tails aid their outstanding balance.Domestic cats remain largely carnivorous, and have evolved a simple gut appropriate for raw meat. They also retain the rough tongue that can help them clean every last morsel from an animal bone (and groom themselves).
+        Their diets vary with the whims of humans, however, and can be supplemented by the cats own hunting successes.
+</string>
+
+    <string name="lion_information">Living in the grasslands, scrub, and open woodlands of sub-Saharan Africa, the lion is the second largest cat in the world.
+        It is dwarfed slightly by the tiger, which is closely related and has a very similar body type.Unlike other cats, lions are very social animals. They live in groups,
+        called prides, of around 30 lions. A pride consists of up to three males, a dozen related females, and their young. The size of the pride is determined by the availability of food and water. If resources are scarce,
+        the pride becomes smaller.Males and females take on very different roles in the pride. Male lions spend their time guarding their territory and their cubs. They maintain the boundaries of their territory,
+        which can be as large as 260 sq. km (100 sq. mi.), by roaring, marking it with urine, and chasing off intruders. Their thick manes, a unique trait to male lions, protect their necks when they fight with challengers
+</string>
+
+    <string name="penguin_information">Penguins are torpedo-shaped, flightless birds that live in the southern regions of the Earth. Though many people imagine a small, black-and-white animal when they think of penguins,
+        these birds actually come in a variety of sizes, and some are very colorful.
+For example, crested penguins sport a crown of yellow feathers. Blushes of orange and yellow mark the necks of emperor and king penguins. What look like bright yellow, bushy eyebrows adorn the heads of some species,
+        such as the Fiordland, royal, Snares and rockhopper penguins. The macaroni penguin\'s name comes from the crest of yellow feathers on its head, which looks like the 18th-century hats of the same name.
+        A light yellow mask covers the face of the yellow-eyed penguin around the eyes.
+</string>
+
+    <string name="turnGPS">Make sure location settings are enabled and try again.</string>
+
+</resources>
+

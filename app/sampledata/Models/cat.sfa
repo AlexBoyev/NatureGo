@@ -1,0 +1,89 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'Armature|Armature|Armature|Armature|Armature|Death|Armature|Death|Armatu',
+        },
+        {
+          name: 'Armature|Armature|Armature|Armature|Armature|Idle|Armature|Idle|Armature',
+        },
+        {
+          name: 'Armature|Armature|Armature|Armature|Armature|Jump|Armature|Jump|Armature',
+        },
+        {
+          name: 'Armature|Armature|Armature|Armature|Armature|Run|Armature|Run|Armature|A',
+        },
+        {
+          name: 'Armature|Armature|Armature|Armature|Armature|WalkSlow|Armature|WalkSlow|',
+        },
+        {
+          name: 'Armature|Armature|Armature|Armature|Armature|Walk|Armature|Walk|Armature',
+        },
+      ],
+      path: 'sampledata/Models/cat.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Cornea',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'LS_bast2',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/Models/cat.fbx',
+    name: 'cat',
+    recenter: 'root',
+    scale: 0.05609500000000002,
+  },
+  samplers: [
+    {
+      file: 'sampledata/Models\\LS_bast2.jpg',
+      name: 'LS_bast2',
+      pipeline_name: 'Texture\\LS_bast2.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

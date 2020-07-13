@@ -1,0 +1,64 @@
+{
+  materials: [
+    {
+      name: 'qi e',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'qi e',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/Models/penguin.FBX',
+    name: 'penguin',
+    recenter: 'root',
+    scale: 0.005007999999999999,
+  },
+  samplers: [
+    {
+      file: 'sampledata/Models\\qi e.png',
+      name: 'qi e',
+      pipeline_name: 'qi e.png',
+    },
+  ],
+  version: '0.54:2',
+}

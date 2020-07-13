@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Map.StartHike">
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:mapbox_cameraTargetLat="40.73581"
+        mapbox:mapbox_cameraTargetLng="-73.99155"
+        mapbox:mapbox_cameraZoom="11" >
+
+
+        <Button
+            android:id="@+id/LocationButt"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="640dp"
+            android:background="@drawable/my_location_icon"
+            android:onClick="ZoomMe" />
+
+        <Button
+            android:id="@+id/CameraButt"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="570dp"
+            android:background="@drawable/photo_icon_green" />
+
+    </com.mapbox.mapboxsdk.maps.MapView>
+
+
+    </android.support.constraint.ConstraintLayout>
+

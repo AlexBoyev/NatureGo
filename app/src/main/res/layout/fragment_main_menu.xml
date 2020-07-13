@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_main_menu"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="main_menu_fragment"
+    android:background="@drawable/hike_background">
+
+
+    <Button
+        android:id="@+id/StartHike"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/NatureLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/button_lightgreen_ag"
+        android:text="@string/start_hike"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/TrackHistory"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/NatureLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        android:background="@drawable/button_lightgreen_ag"
+        android:text="@string/track_history"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/MyCollection"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/NatureLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/button_lightgreen_ag"
+        android:text="@string/my_collection"
+        android:textAllCaps="false" />
+
+    <ImageView
+        android:id="@+id/NatureLogo"
+        android:layout_width="325dp"
+        android:layout_height="145dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/naturelogo">
+
+    </ImageView>
+
+
+</RelativeLayout>

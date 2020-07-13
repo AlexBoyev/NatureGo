@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="4dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:background="#07AC9A">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/hike_statistics_image"
+            android:padding="2dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/statistics_hike_name"
+            android:text="@string/hike_name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/hike_statistics_image"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/statistic_hike_info"
+            android:layout_height="wrap_content"
+            android:text="@string/information"
+            android:layout_below="@+id/statistics_hike_name"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@+id/hike_statistics_image"
+            android:textSize="15sp"
+            android:textColor="#000000">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

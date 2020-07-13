@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_main_menu"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="main_menu_fragment"
+    android:background="@drawable/trivia_background">
+
+
+
+        <ImageView
+            android:layout_width="325dp"
+            android:layout_height="145dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/naturelogo" />
+
+        <TextView
+            android:id="@+id/tv_score"
+            android:layout_width="194dp"
+            android:layout_height="85dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:paddingTop="20sp"
+            android:text="Score"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_question"
+            android:layout_width="405dp"
+            android:layout_height="159dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="20sp"
+            android:text="Question"
+            android:textSize="25sp"
+            android:textColor="#000000"/>
+
+
+        <Button
+        android:id="@+id/btn_one"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+            android:layout_marginTop="340dp"
+        android:background="@drawable/button_lightgreen_ag"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btn_two"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="410dp"
+        android:background="@drawable/button_lightgreen_ag"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btn_three"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="480dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_lightgreen_ag"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btn_four"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="550dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_lightgreen_ag"
+        android:text="Button" />
+
+
+
+
+</RelativeLayout>

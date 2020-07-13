@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main_menu"
+            android:icon="@drawable/home_icon_green"
+            android:title="@string/main_menu" />
+        <item
+            android:id="@+id/nav_admin_panel"
+            android:icon="@drawable/ic_admin"
+            android:title="@string/admin_panel" />
+
+        <item
+            android:id="@+id/nav_teacher_panel"
+            android:icon="@drawable/statistics_icon_green"
+            android:title="@string/statistics" />
+        <item
+            android:id="@+id/nav_trivia"
+            android:icon="@drawable/trivia_icon_green"
+            android:title="@string/trivia">
+        </item>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_profile_settings"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_information"
+            android:icon="@drawable/info_icon_green"
+            android:title="@string/information"></item>
+    </group>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_exit"
+        android:title="@string/logout"></item>
+</menu>

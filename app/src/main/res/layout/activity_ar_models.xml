@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AugmentedReality.ArModels"
+    android:background="@drawable/hike_background">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="593dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/lion"
+                android:tag ="lion"
+                android:layout_width="fill_parent"
+                android:layout_height="216dp"
+                android:background="@drawable/lion"
+                android:textAllCaps="false"
+                android:textSize="17sp"
+                tools:textColor="?attr/colorBackgroundFloating" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="15dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/cat"
+                android:tag ="cat"
+                android:layout_width="fill_parent"
+                android:layout_height="216dp"
+                android:background="@drawable/cat"
+                android:textAllCaps="false"
+                android:textSize="17sp"
+                tools:textColor="?attr/colorBackgroundFloating" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="15dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/penguin"
+                android:tag ="penguin"
+                android:layout_width="fill_parent"
+                android:layout_height="216dp"
+                android:background="@drawable/penguin"
+                android:textAllCaps="false"
+                android:textSize="17sp"
+                tools:textColor="?attr/colorBackgroundFloating" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="15dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/ciconia"
+                android:tag ="ciconia"
+                android:layout_width="fill_parent"
+                android:layout_height="216dp"
+                android:background="@drawable/ciconia_black"
+                android:textAllCaps="false"
+                android:textSize="17sp"
+                tools:textColor="?attr/colorBackgroundFloating" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="15dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/frog"
+                android:tag ="frog"
+                android:layout_width="fill_parent"
+                android:layout_height="216dp"
+                android:background="@drawable/frog_black"
+                android:textAllCaps="false"
+                android:textSize="17sp"
+                tools:textColor="@android:color/background_light" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="15dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/gecko"
+                android:tag ="gecko"
+                android:layout_width="fill_parent"
+                android:layout_height="216dp"
+                android:background="@drawable/gecko_black"
+                android:textAllCaps="false"
+                android:textSize="17sp"
+                tools:textColor="@android:color/background_light" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="15dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/hoopoe"
+                android:tag ="hoopoe"
+                android:layout_width="fill_parent"
+                android:layout_height="216dp"
+                android:background="@drawable/hoopoe_black"
+                android:textAllCaps="false"
+                android:textSize="17sp"
+                tools:textColor="@android:color/background_light" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="15dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/mongoose"
+                android:tag ="mongoose"
+                android:layout_width="fill_parent"
+                android:layout_height="216dp"
+                android:background="@drawable/mongoose_black"
+                android:textAllCaps="false"
+                android:textSize="17sp"
+                tools:textColor="@android:color/background_light" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="15dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/otter"
+                android:tag ="otter"
+                android:layout_width="fill_parent"
+                android:layout_height="216dp"
+                android:background="@drawable/otter_black"
+                android:textAllCaps="false"
+                android:textSize="17sp"
+                tools:textColor="@android:color/background_light" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="15dp"
+                android:layout_weight="1" />
+
+
+            <Button
+                android:id="@+id/stellagama"
+                android:tag ="stellagama"
+                android:layout_width="fill_parent"
+                android:layout_height="216dp"
+                android:background="@drawable/stellagama_black"
+                android:textAllCaps="false"
+                android:textSize="17sp"
+                tools:textColor="@android:color/background_light" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="15dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/honeyBadger"
+                android:tag ="honeybadger"
+                android:layout_width="fill_parent"
+                android:layout_height="216dp"
+                android:background="@drawable/honeybadger_black"
+                android:textAllCaps="false"
+                android:textSize="17sp"
+                tools:textColor="@android:color/background_light" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="15dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/fruitBat"
+                android:tag ="egyptian_fruit_bat"
+                android:layout_width="fill_parent"
+                android:layout_height="216dp"
+                android:background="@drawable/egyptian_fruit_bat_black"
+                android:textAllCaps="false"
+                android:textSize="17sp"
+                tools:textColor="@android:color/background_light" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="15dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_lightgreen_ag"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/back"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

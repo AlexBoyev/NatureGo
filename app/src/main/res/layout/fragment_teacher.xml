@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tag="trivia_fragment"
+    android:id="@+id/fragment_trivia"
+    android:background="@drawable/hike_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative_teacher"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingTop="35dp"
+        android:paddingRight="24dp">
+
+
+
+        <TextView
+
+            android:id="@+id/dates_selection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/enter_dates"
+            android:textColor="#000000"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RelativeLayout
+            android:layout_width="563dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <EditText
+                android:id="@+id/start_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="0dp"
+                android:focusableInTouchMode="false"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="6dp"
+                android:hint="@string/start_date"
+                android:textSize="18dp"
+                android:textColorHint="#000000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/end_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="false"
+                android:layout_marginTop="6dp"
+                android:layout_marginStart="150dp"
+                android:hint="@string/end_date"
+                android:textSize="18dp"
+                android:textColorHint="#000000"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColorHint="#000000"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_School"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="@string/school_name" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColorHint="#000000"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_Class"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="@string/class_name" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColorHint="#000000"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/input_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="@string/city_name" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <RelativeLayout
+            android:layout_width="563dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <Button
+                android:id="@+id/Get_all_statistics"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="0dp"
+                android:tag="all_statistics"
+                android:text="@string/get_all"
+                android:background="@drawable/button_lightgreen_ag"/>
+
+            <Button
+                android:id="@+id/get_all_statistics_by_dates"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/button_lightgreen_ag"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="85dp"
+                android:tag="get_statistics_by_dates"
+                android:text="@string/get_by_dates" />
+
+            <Button
+                android:id="@+id/get_all_statistics_by_dates_summery"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/button_lightgreen_ag"
+
+                android:layout_marginEnd="265dp"
+                android:tag="get_statistics_by_dates"
+                android:text="@string/dates_summery" />
+        </RelativeLayout>
+   </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_statistics"
+        android:layout_width="match_parent"
+        android:layout_height="532dp"
+        android:layout_marginTop="400dp"
+        android:background="#F6DCC7"
+        android:padding="4dp"
+        android:scrollbars="vertical" />
+
+
+
+
+    </RelativeLayout>

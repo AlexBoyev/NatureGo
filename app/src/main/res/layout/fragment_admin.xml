@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tag="fragment_fragment"
+    android:id="@+id/fragment_admin"
+    android:background="@drawable/hike_background">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="35dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+    <ImageView android:src="@drawable/naturelogo"
+        android:layout_width="325dp"
+        android:layout_height="145dp"
+        android:layout_marginBottom="24dp"
+        android:layout_gravity="center_horizontal" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+        </RelativeLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textColorHint="#000000">
+            <EditText android:id="@+id/input_find_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType=""
+                android:hint="@string/search" />
+        </android.support.design.widget.TextInputLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:isScrollContainer="false">
+
+            <Button
+                android:id="@+id/search_name"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="60dp"
+                android:text="@string/search"
+                android:tag="search_name"
+                android:windowSoftInputMode="adjustResize"
+                android:background="@drawable/button_lightgreen_ag"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_admin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="360dp"
+        android:scrollbars="vertical"
+        android:padding="4dp"
+        android:background="#F6DCC7" />
+
+
+
+
+</RelativeLayout>
+

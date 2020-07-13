@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width = "350dp"
+    android:layout_height = "475dp"
+    android:padding="5dp"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/closepopup"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text = "X"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:background="@drawable/exitcircle"/>
+
+    <TextView
+        android:id="@+id/animal_info_text"
+        android:layout_width="324dp"
+        android:layout_height="356dp"
+        android:gravity="center"
+        android:scrollbars="vertical"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="6dp"
+        android:text="TextView" />
+
+</LinearLayout>
